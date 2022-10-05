@@ -1,0 +1,149 @@
+body {
+  font-family: Monospace, sans-serif;
+  margin: 0;
+  color: floralwhite;
+}
+
+.firstline {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+header {
+  background-color: #5F6F94;
+  width: 100%;
+  height: 270px;
+}
+
+header img {
+  width: 230px;
+  border: #97D2EC solid 2px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hsubsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin-left: 10%;
+}
+
+.motion {
+  width: 350px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.points {
+  width: 100%;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.points h4{
+  color: #25316D;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+
+.icon img {
+  width: 200px;
+  height: 137px;
+  object-fit: cover; 
+  border: #97D2EC solid 2px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.icon {
+  width: 20%;
+  flex-shrink: 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.feature {
+  color: #25316D;
+}
+
+.citate {
+  background-color: #97D2EC;
+  width: 70%;
+  margin: 20px 15%;
+  padding: 10px 80px;
+  text-align: center;
+  height: 150px;
+  color: floralwhite;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.call {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #25316D;
+  width: 50%;
+  margin: 15px 25%;
+  padding: 10px 60px;
+  height: 60px;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#callh {
+  font-weight: 800;
+}
+
+.call p {
+  margin: 0;
+}
+
+button {
+  background-color: #97D2EC;
+  color: #25316D;
+  font-weight: 700;
+  border-radius: 7px;
+  padding: 5px;
+}
+a {
+  color: floralwhite;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #5F6F94;
+  width: 100%;
+  height: 20px;
+  font-size: 13px;
+  padding: 10px;
+}
