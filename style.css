@@ -73,19 +73,17 @@ section {
 .points {
   width: 100%;
   flex-shrink: 0;
-  margin-bottom: 100px;
 }
 
 .points h4{
   color: #25316D;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
-  padding-top: 15px;
   justify-content: space-evenly;
 }
 
@@ -101,6 +99,7 @@ section {
 
 .icon {
   width: 300px;
+  margin: 40px 0;
   flex-shrink: 0;
   font-size: 13px;
   text-align: center;
