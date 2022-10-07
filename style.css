@@ -1,7 +1,11 @@
-body {
-  font-family: Monospace, sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monospace, sans-serif;
   color: floralwhite;
   background-color: floralwhite;
 }
@@ -43,9 +47,9 @@ header img {
 .hsubsection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 50%;
+  gap: 300px;
   margin-left: auto;
   margin-right: auto;
   padding: 14px;
@@ -65,8 +69,8 @@ section {
 
 .points {
   width: 100%;
-  height: 300px;
   flex-shrink: 0;
+  margin-bottom: 100px;
 }
 
 .points h4{
@@ -92,7 +96,7 @@ section {
 }
 
 .icon {
-  width: 20%;
+  width: 300px;
   flex-shrink: 0;
   font-size: 13px;
   text-align: center;
@@ -121,7 +125,7 @@ section {
   flex-direction: row;
   gap: 20px;
   background-color: #25316D;
-  margin-top: 20px;
+  margin: 20px 0;
   padding: 15px 20px;
   align-items: center;
   border-radius: 10px;
@@ -150,11 +154,25 @@ a {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background-color: #5F6F94;
   width: 100%;
-  height: 20px;
   font-size: 13px;
   padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .icon {
+    flex-shrink: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hsubsection {
+    gap: 100px;
+  }
+  .icons {
+    flex-wrap: wrap;
+  }
 }
