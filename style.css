@@ -8,6 +8,9 @@ body {
   font-family: Monospace, sans-serif;
   color: floralwhite;
   background-color: floralwhite;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 38px;
 }
 
 .firstline {
