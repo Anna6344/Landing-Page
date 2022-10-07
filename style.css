@@ -89,6 +89,7 @@ section {
 .icon img {
   width: 200px;
   height: 137px;
+  margin-bottom: 15px;
   object-fit: cover; 
   border: #97D2EC solid 2px;
   border-radius: 15px;
